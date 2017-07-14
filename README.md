@@ -15,5 +15,3 @@ This is the dataset for Chinese community medical question answering. The datase
 * **answers.csv**  All Answers and their content.
 * **train_candidates.txt** **dev_candidates.txt** **test_candidates.txt** The split of training set, development set and test set respectively.
 
-# Acknowledgement
-The dataset is acquired from an online Chinese medical question answering forum [XunYiWenYao](http://www.xywy.com/).
