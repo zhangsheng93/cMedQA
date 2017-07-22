@@ -1,5 +1,5 @@
 # cMedQA v1.0
-This is the dataset for Chinese community medical question answering. The dataset is in version 1.0 and is available for non-commercial research. We will updating and expanding the database from time to time. In order to protect the privacy, the data is anonymized and no personal information is included.
+This is the dataset for Chinese community medical question answering. The dataset is in version 1.0 and is available for non-commercial research. We will update and expand the database from time to time. In order to protect the privacy, the data is anonymized and no personal information is included.
 
 
 # Overview
