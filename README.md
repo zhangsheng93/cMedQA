@@ -15,3 +15,19 @@ This is the dataset for Chinese community medical question answering. The datase
 * **answers.csv**  All Answers and their content.
 * **train_candidates.txt** **dev_candidates.txt** **test_candidates.txt** The split of training set, development set and test set respectively.
 
+# Paper
+**Chinese Medical Question Answer Matching Using End-to-End Character-Level Multi-Scale CNNs** [link to the paper](http://www.mdpi.com/2076-3417/7/8/767)
+
+Please cite our paper when you use the dataset.
+```
+@article{zhang2017chinese,
+  title={Chinese Medical Question Answer Matching Using End-to-End Character-Level Multi-Scale CNNs},
+  author={Zhang, Sheng and Zhang, Xin and Wang, Hui and Cheng, Jiajun and Li, Pei and Ding, Zhaoyun},
+  journal={Applied Sciences},
+  volume={7},
+  number={8},
+  pages={767},
+  year={2017},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+```
