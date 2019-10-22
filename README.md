@@ -1,3 +1,12 @@
+首先谢谢前辈辛苦做的数据集，方便我们追随者使用。在使用数据集时发现两个问题 像前辈反映一下。用的版本1
+ 1、一个是train_candidates.txt   test_candidates.txt  dev_candidates.txt  ，在利用question.csv 和answer.csv 联合 读取时 （padas 以及python  自己的read wrtie 手写的）， 个别question_id  在question.csv  不存在，并且还挺多。以至于
+ 本该150万条（50万*30）的训练集 读完样本个数只有18万（187259）
+ 本该20万（2000*100）的dev  test 读完样本个数只有2.1万 和2.6万  （21200 26500）  三者都比预期少了将近10倍，
+ 也就train_candidates.txt   test_candidates.txt  dev_candidates.txt   有效数据0.1，不知道前辈们清楚么
+2、 读完后，发现train_candidates.txt  生成训练数据中好多（q,a+,a-） 对应q 的正答案a+  和问题根本不相关；
+对于test_candidates.txt  dev_candidates.txt  读取后 ，（q,a,id,label）label为1的答案，本来该是正答案，结果也和q bu相关。目前没统计类似情况的分布程度，但这对实验会没影响么。
+
+
 # cMedQA v1.0
 This is the dataset for Chinese community medical question answering. The dataset is in version 1.0 and is available for non-commercial research. We will update and expand the database from time to time. In order to protect the privacy, the data is anonymized and no personal information is included.
 
